@@ -42,4 +42,9 @@
   transform: translateX(-100%); 
   }
  }
- 
+
+ .mdl-layout-title{
+  font-family: 'Bangers', cursive;
+  font-size: 35px; 
+  color: black ; 
+ }
