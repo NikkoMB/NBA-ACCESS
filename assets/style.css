@@ -1,0 +1,26 @@
+.mdl-layout-title{
+    background-color: gold; 
+    color: blue; 
+}
+.demo-card-wide.mdl-card {
+    width: 512px;
+    margin-left: 220px; 
+  }
+  .demo-card-wide > .mdl-card__title {
+    color: gray;
+    height: 176px;
+    background: url('../assets/demos/welcome_card.jpg') center / cover;
+  }
+  .demo-card-wide > .mdl-card__menu {
+    color: gray;
+  }
+
+  .demo-card-square.mdl-card {
+    width: 320px;
+    height: 320px;
+    margin-left: 930px; 
+    margin-bottom: 20px; 
+  }
+  .demo-card-square > .mdl-card__title {
+    color: #fff;
+  } 
