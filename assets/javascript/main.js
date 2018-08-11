@@ -83,7 +83,7 @@ $("#Kawhi").on("click", function () {
 $("#Beard").on("click", function () {
     console.log('James Harden'); 
     var harden = {
-        profilePic: "", 
+        profilePic: "<img id='harden' src='assets/images/harden.jpg'>", 
         name: "James Harden",
         position: "Guard", 
         pointsPerGame: "23.0",
@@ -110,7 +110,7 @@ $("#Russell").on("click", function () {
 $("#Greek").on("click", function () {
     console.log('Giannis Antetokoumpo'); 
     var giannis = {
-        profilePic: "", 
+        profilePic: "<img id='giannis' src='assets/images/giannis.jpg'>", 
         name: "Giannis Antetokoumpo",
         position: "Forward",
         pointsPerGame: "17.2",
@@ -124,7 +124,7 @@ $("#Greek").on("click", function () {
 $("#Chris").on("click", function () {
     console.log('Chris Paul'); 
     var paul = {
-        profilePic: "", 
+        profilePic: "<img id='paul' src='assets/images/paul.jpg'>", 
         name: "Chris Paul",
         position: "Guard",
         pointsPerGame: "18.7",
@@ -137,7 +137,7 @@ $("#Chris").on("click", function () {
 $("#Joel").on("click", function () {
     console.log('Joel Embiid'); 
     var embiid = {
-        profilePic: "", 
+        profilePic: "<img id='embiid' src='assets/images/embiid.jpg'>", 
         name: "Joel Embiid",
         position: "Center",
         pointsPerGame: "22",

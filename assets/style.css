@@ -108,6 +108,34 @@
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
+
+ #giannis{
+  height: 300px; 
+  width: 300px; 
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+ }
+
+ #paul{
+  height: 300px; 
+  width: 300px; 
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+ }
+
+ #embiid{
+  height: 300px; 
+  width: 300px; 
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+ }
+
+ #harden{
+  height: 300px; 
+  width: 300px; 
+  -moz-border-radius:50%;
+  -webkit-border-radius:50%;
+ }
  h4 {
    margin-left: 140px; 
    font-family: 'Libre Baskerville', serif;
