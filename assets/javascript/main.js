@@ -164,17 +164,17 @@ $("#Dwyane").on("click", function () {
 function nbaPlayer (basketball){ 
 const tag = $("<ul>"), 
 profilePic = $("<li>").html (basketball.profilePic),
-name = $("<li>").html('Name: '+ basketball.name), 
-position = $("<li>").html('NBA Position: '+ basketball.position),
-pointsPerGame = $("<li>").html('Points Per Game: '+ basketball.pointsPerGame),
-assistsPerGame = $("<li>").html('Assists Per Game: '+ basketball.assistsPerGame);
+name = $("<li id='bullet'>").html('Name: '+ basketball.name), 
+position = $("<li id='bullet'>").html('NBA Position: '+ basketball.position),
+pointsPerGame = $("<li id='bullet'>").html('Points Per Game: '+ basketball.pointsPerGame),
+assistsPerGame = $("<li id='bullet'>").html('Assists Per Game: '+ basketball.assistsPerGame);
 
 
 if (basketball.stealsPerGame != null){
-   var stealsPerGame = $("<li>").html('Steals Per Game: '+ basketball.stealsPerGame);
+   var stealsPerGame = $("<li id='bullet'>").html('Steals Per Game: '+ basketball.stealsPerGame);
 }
 if (basketball.blocksPerGame != null){
-   var blocksPerGame = $("<li>").html('Blocks Per Game: '+ basketball.blocksPerGame); 
+   var blocksPerGame = $("<li id='bullet'>").html('Blocks Per Game: '+ basketball.blocksPerGame); 
 }
 tag.append(profilePic).append(name).append(position).append(pointsPerGame).append(assistsPerGame).append(stealsPerGame).append(blocksPerGame);
 $("#stats").html("<h4>Player Info<h4>").append(tag); 

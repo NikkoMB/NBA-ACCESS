@@ -10,15 +10,15 @@
   font-size: 3em;
   color: whitesmoke; 
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 220%;
+  height: 220%;
   margin: 0;
   line-height: 50px;
   text-align: center;
   /* Starting position */
-  -moz-transform:translateX(100%);
-  -webkit-transform:translateX(100%);	
-  transform:translateX(100%);
+  -moz-transform:translateX 220%);
+  -webkit-transform:translateX 220%);	
+  transform:translateX 220%);
   /* Apply animation to this element */	
   -moz-animation: example1 15s linear infinite;
   -webkit-animation: example1 15s linear infinite;
@@ -26,23 +26,23 @@
  }
  /* Move it (define the animation) */
  @-moz-keyframes example1 {
-  0%   { -moz-transform: translateX(100%); }
-  100% { -moz-transform: translateX(-100%); }
+  0%   { -moz-transform: translateX 220%); }
+ 220% { -moz-transform: translateX( 220%); }
  }
  @-webkit-keyframes example1 {
-  0%   { -webkit-transform: translateX(100%); }
-  100% { -webkit-transform: translateX(-100%); }
+  0%   { -webkit-transform: translateX 220%); }
+ 220% { -webkit-transform: translateX( 220%); }
  }
  @keyframes example1 {
   0%   { 
-  -moz-transform: translateX(100%); /* Firefox bug fix */
-  -webkit-transform: translateX(100%); /* Firefox bug fix */
-  transform: translateX(100%); 		
+  -moz-transform: translateX 220%); /* Firefox bug fix */
+  -webkit-transform: translateX 220%); /* Firefox bug fix */
+  transform: translateX 220%); 		
   }
-  100% { 
-  -moz-transform: translateX(-100%); /* Firefox bug fix */
-  -webkit-transform: translateX(-100%); /* Firefox bug fix */
-  transform: translateX(-100%); 
+ 220% { 
+  -moz-transform: translateX( 220%); /* Firefox bug fix */
+  -webkit-transform: translateX( 220%); /* Firefox bug fix */
+  transform: translateX( 220%); 
   }
  }
 
@@ -56,8 +56,8 @@
  }
 
 #gsw{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
 }
@@ -68,76 +68,79 @@
  }
 
  #lal{
-   height: 290px;
-   width: 290px; 
+   height: 220px;
+   width: 220px; 
    -moz-border-radius:50%;
    -webkit-border-radius:50%;
  }
 
  #kd{
-   height: 300px;
-   width: 300px; 
+   height: 220px;
+   width: 220px; 
    -moz-border-radius:50%;
    -webkit-border-radius:50%;
  }
 
  #ad{
-   height: 300px; 
-   width: 300px; 
+   height: 220px; 
+   width: 220px; 
    -moz-border-radius:50%;
    -webkit-border-radius:50%;
  }
 
  #westbrook{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #wade{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #kawhi{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #giannis{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #paul{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #embiid{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
 
  #harden{
-  height: 300px; 
-  width: 300px; 
+  height: 220px; 
+  width: 220px; 
   -moz-border-radius:50%;
   -webkit-border-radius:50%;
  }
  h4 {
-   margin-left: 140px; 
+   margin-left: 90px; 
    font-family: 'Libre Baskerville', serif;
  }
 
+#bullet{
+  margin-left: 40px;
+}
