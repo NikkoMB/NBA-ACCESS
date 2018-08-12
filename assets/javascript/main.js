@@ -178,43 +178,4 @@ if (basketball.blocksPerGame != null){
 }
 tag.append(profilePic).append(name).append(position).append(pointsPerGame).append(assistsPerGame).append(stealsPerGame).append(blocksPerGame);
 $("#stats").html("<h4>Player Info<h4>").append(tag); 
-
-/////////// AJAX CALL /////////////////////
-
-var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
-        person + "&api_key=ZObuCGpXH7JfzssZCJYAWQtyQnB757oP&limit=1";
-        var person = $(this).attr("data-person");
-        console.log(person);
-        $("#giphs").empty();
-  // Performing our AJAX GET request
-  $.ajax({
-    url: queryURL,
-    method: "GET"
-})
-// After the data comes back from the API
-.then(function (response) {
-    console.log(response); 
-    // Storing an array of results in the results variable
-    var results = response.data;
-
-    // Looping over every result item
-    for (var i = 0; i < results.length; i++) {
-        // Only taking action if the photo has an appropriate rating
-        if (results[i].rating !== "r" && results[i].rating !== "pg-13") {
-            // Creating a div with the class "item"
-            var gifDiv = $("<div class='item'>");
-            console.log(gifDiv);
-            // Creating an image tag
-            var personImage = $("<img>");
-            console.log(personImage);
-            // Giving the image tag an src attribute of a proprty pulled off the
-            // result item
-            personImage.attr("src", results[i].images.fixed_height.url);
-            personImage.attr("data-state", "animate");
-            personImage.attr("data-animate", results[i].images.fixed_height.url);
-            personImage.attr("data-still", results[i].images.downsized_still.url);
-
-            $("#giph").prepend(gifDiv);
-        }
-    }
-})}
+}
