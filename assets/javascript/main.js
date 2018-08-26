@@ -179,3 +179,17 @@ if (basketball.blocksPerGame != null){
 tag.append(profilePic).append(name).append(position).append(pointsPerGame).append(assistsPerGame).append(stealsPerGame).append(blocksPerGame);
 $("#stats").html("<h4>Player Info<h4>").append(tag); 
 }
+
+$("button").on("click", function(){
+    console.log("button is working");
+    var person = $(this).attr("data-person");
+    console.log(person);
+
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" +
+        person + "&api_key=ZObuCGpXH7JfzssZCJYAWQtyQnB757oP&limit=1";
+   
+    $.ajax({
+        url: queryURL,
+        method: "GET"
+    })
+})
