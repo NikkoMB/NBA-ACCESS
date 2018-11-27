@@ -1,7 +1,7 @@
 # NBA-ACCESS
-Get to know your NBA players on and off the court via social media! 
+Get to know your NBA players career stats! 
 
-Material Lite powered wireframe with AJAX calls and api keys. 
+Material Lite Design & J-Query 
 
 Check it out here!
 https://nikkomb.github.io/NBA-ACCESS/
